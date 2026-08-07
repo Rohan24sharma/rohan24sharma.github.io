@@ -2,42 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rohan Sharma | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Sharma | DevOps Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page-shell">
+        <header class="topbar">
+            <a class="brand" href="index.html"><span>R</span>Rohan Sharma</a>
+            <nav class="nav-links">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="skills.html">Skills</a>
+                <a class="nav-link" href="certifications.html">Certifications</a>
+                <a class="nav-link" href="resume.html">Resume</a>
+            </nav>
+        </header>
 
-<nav>
-    <h2>Rohan Sharma</h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="certifications.html">Certifications</a></li>
-	<li><a href="resume.html">Resume</a></li>
-    </ul>
-</nav>
+        <main>
+            <section class="hero">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">DevOps Engineer • Cloud Specialist</p>
+                    <h1>Building secure, scalable, and automated cloud platforms.</h1>
+                    <p class="lead">I design modern CI/CD pipelines, cloud infrastructure, and DevSecOps practices that help teams ship faster with confidence.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="projects.html">Explore Projects</a>
+                        <a class="btn btn-secondary" href="resume.html">View Resume</a>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-card">
+                            <strong>3+</strong>
+                            <span>Years experience</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>AWS</strong>
+                            <span>Azure Cloud</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>IaC</strong>
+                            <span>Terraform & CI/CD</span>
+                        </div>
+                    </div>
+                </div>
 
-<section class="section">
-    <h1>About Me</h1>
-    <p>
-        I am a DevOps Engineer and Cloud Specialist with 3+ years of hands-on experience in designing, implementing, and optimizing scalable cloud solutions across Azure and AWS platforms.
-    </p>
+                <div class="hero-panel reveal">
+                    <div class="panel-card">
+                        <h3>Core Focus</h3>
+                        <ul class="info-list">
+                            <li>Infrastructure as Code with Terraform</li>
+                            <li>Secure and automated CI/CD pipelines</li>
+                            <li>Cloud-native deployments and observability</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-    <p>
-        I specialize in Infrastructure as Code (IaC), CI/CD pipeline automation, and secure DevSecOps practices. I have extensive experience working with tools like Terraform, Azure Pipelines, GitHub Actions, and security tools such as Tfsec, TFLint, TruffleHog, Super Linter, Terratest, and OpenCost.
-    </p>
+            <section class="section reveal">
+                <div class="section-heading">
+                    <p class="eyebrow">About me</p>
+                    <h2>Professional profile</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="glass-card">
+                        <p>I am a DevOps Engineer and Cloud Specialist with 3+ years of hands-on experience in designing, implementing, and optimizing scalable cloud solutions across Azure and AWS platforms.</p>
+                        <p>I specialize in Infrastructure as Code, CI/CD automation, and secure DevSecOps practices. My work focuses on creating resilient delivery systems and making deployments efficient, repeatable, and secure.</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3>What I value</h3>
+                        <ul class="info-list">
+                            <li>Automation-first development culture</li>
+                            <li>Security embedded in every deployment</li>
+                            <li>Collaboration, mentoring, and teamwork</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-    <p>
-        I am passionate about building secure, automated, and efficient deployment pipelines while integrating security across the entire software development lifecycle. I have contributed to cloud transformation initiatives and continuously strive to improve deployment efficiency in enterprise environments.
-    </p>
+            <section class="section reveal">
+                <div class="section-heading">
+                    <p class="eyebrow">Expertise</p>
+                    <h2>Areas of impact</h2>
+                </div>
+                <div class="card-grid">
+                    <article class="mini-card">
+                        <h3>Cloud Platforms</h3>
+                        <p>Hands-on experience with AWS and Azure environments and cloud architecture best practices.</p>
+                    </article>
+                    <article class="mini-card">
+                        <h3>Automation</h3>
+                        <p>Building robust automation for provisioning, testing, deployment, and environment consistency.</p>
+                    </article>
+                    <article class="mini-card">
+                        <h3>DevSecOps</h3>
+                        <p>Integrating security into pipelines using tools for linting, scanning, and policy enforcement.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
 
-    <p>
-        Beyond technical expertise, I value strong communication, leadership, and teamwork. I believe in being a supportive team member, a responsible professional, and someone who can simplify complex problems for others. I enjoy mentoring, collaborating, and creating a positive work environment.
-    </p>
+        <footer class="footer">
+            <p>© <span id="year"></span> Rohan Sharma. Crafted for a modern DevOps presence.</p>
+        </footer>
+    </div>
 
-    <a href="Rohan_Sharma_Devops.pdf" class="btn" target="_blank">Download Resume</a>
-</section>
-
+    <button class="scroll-top" aria-label="Scroll to top">↑</button>
+    <script src="script.js"></script>
 </body>
 </html>

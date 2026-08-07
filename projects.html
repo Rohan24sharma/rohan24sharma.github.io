@@ -2,50 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Rohan Sharma</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page-shell">
+        <header class="topbar">
+            <a class="brand" href="index.html"><span>R</span>Rohan Sharma</a>
+            <nav class="nav-links">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="skills.html">Skills</a>
+                <a class="nav-link" href="certifications.html">Certifications</a>
+                <a class="nav-link" href="resume.html">Resume</a>
+            </nav>
+        </header>
 
-<nav>
-    <h2>Rohan Sharma</h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="certifications.html">Certifications</a></li>
-	<li><a href="resume.html">Resume</a></li>
-    </ul>
-</nav>
+        <main>
+            <section class="section reveal">
+                <div class="section-heading">
+                    <p class="eyebrow">Portfolio</p>
+                    <h2>Selected projects</h2>
+                </div>
 
-<section class="section">
-    <h1>Projects</h1>
+                <div class="project-grid">
+                    <article class="project-card reveal">
+                        <h3>DevSecOps Terraform Practice</h3>
+                        <p>Hands-on implementation of secure infrastructure provisioning using Terraform with integrated security scanning tools.</p>
+                        <a href="https://github.com/Rohan24sharma/DevSecOps-Terraform-Practice.git" target="_blank">View Project</a>
+                    </article>
 
-    <div class="card">
-        <h3>DevSecOps Terraform Practice</h3>
-        <p>Hands-on implementation of secure infrastructure provisioning using Terraform with integrated security scanning tools.</p>
-        <a href="https://github.com/Rohan24sharma/DevSecOps-Terraform-Practice.git" target="_blank">View Project</a>
+                    <article class="project-card reveal">
+                        <h3>GFG POTD Solutions</h3>
+                        <p>Collection of problem-solving solutions to improve data structures and algorithms skills.</p>
+                        <a href="https://github.com/Rohan24sharma/GFG-POTD.git" target="_blank">View Project</a>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <h3>Clinical Mastitis Detection</h3>
+                        <p>Project focused on disease detection and analysis using structured data.</p>
+                        <a href="https://github.com/Rohan24sharma/ClinicalMastitis.git" target="_blank">View Project</a>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <h3>Spring Boot Projects</h3>
+                        <p>Collection of backend services built using Spring Boot and REST APIs.</p>
+                        <a href="https://github.com/Rohan24sharma/SpringBootProjects/tree/rohanFeature" target="_blank">View Project</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© <span id="year"></span> Rohan Sharma. Crafted for a modern DevOps presence.</p>
+        </footer>
     </div>
 
-    <div class="card">
-        <h3>GFG POTD Solutions</h3>
-        <p>Collection of problem-solving solutions to improve data structures and algorithms skills.</p>
-        <a href="https://github.com/Rohan24sharma/GFG-POTD.git" target="_blank">View Project</a>
-    </div>
-
-    <div class="card">
-        <h3>Clinical Mastitis Detection</h3>
-        <p>Project focused on disease detection and analysis using structured data.</p>
-        <a href="https://github.com/Rohan24sharma/ClinicalMastitis.git" target="_blank">View Project</a>
-    </div>
-
-    <div class="card">
-        <h3>Spring Boot Projects</h3>
-        <p>Collection of backend services built using Spring Boot and REST APIs.</p>
-        <a href="https://github.com/Rohan24sharma/SpringBootProjects/tree/rohanFeature" target="_blank">View Project</a>
-    </div>
-
-</section>
-
+    <button class="scroll-top" aria-label="Scroll to top">↑</button>
+    <script src="script.js"></script>
 </body>
 </html>

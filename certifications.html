@@ -2,31 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certifications | Rohan Sharma</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page-shell">
+        <header class="topbar">
+            <a class="brand" href="index.html"><span>R</span>Rohan Sharma</a>
+            <nav class="nav-links">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="skills.html">Skills</a>
+                <a class="nav-link" href="certifications.html">Certifications</a>
+                <a class="nav-link" href="resume.html">Resume</a>
+            </nav>
+        </header>
 
-<nav>
-    <h2>Rohan Sharma</h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="certifications.html">Certifications</a></li>
-	<li><a href="resume.html">Resume</a></li>
-    </ul>
-</nav>
+        <main>
+            <section class="section reveal">
+                <div class="section-heading">
+                    <p class="eyebrow">Credentials</p>
+                    <h2>Professional certifications</h2>
+                </div>
 
-<section class="section">
-    <h1>Certifications</h1>
+                <div class="cert-grid">
+                    <article class="cert-card reveal">
+                        <h3>AWS Certified Solutions Architect</h3>
+                        <p>Expertise in designing scalable, reliable, and secure cloud solutions.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
 
-    <div class="card">
-        <h3>AWS Certified Solutions Architect</h3>
-        <p>Expertise in designing scalable, reliable, and secure cloud solutions.</p>
+        <footer class="footer">
+            <p>© <span id="year"></span> Rohan Sharma. Crafted for a modern DevOps presence.</p>
+        </footer>
     </div>
 
-</section>
-
+    <button class="scroll-top" aria-label="Scroll to top">↑</button>
+    <script src="script.js"></script>
 </body>
 </html>
